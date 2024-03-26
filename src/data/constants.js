@@ -2,15 +2,15 @@ export const Bio = {
     name: 'Tuvshin-ochir',
     roles: ['Full Stack Developer', 'Front-End Developer', 'Back-End Developer'],
     description:
-        'A seasoned Full Stack Developer with 2 years of experience driving performance, reliability and scalability of customer-facing web applications. Effectively led full stack development resulting in 25% faster loading times and improved user experience. Deployed applications to multiple cloud-based production environments, set up and maintained a relational database system, integrated third-party services.',
+        "Hello, I'm a full stack developer with expertise in both front-end and back-end technologies. I have a passion for creating seamless and user-friendly web applications that provide a great user experience. I am well-equipped to handle the entire development process from start to finish.",
     github: 'https://github.com/Tubshebn',
-    resume: 'https://drive.google.com/file/d/1ffZrcMcn8UatXGIaautbbqpV7ADNaETA/view?usp=sharing',
+    resume: '/cv.pdf',
     linkedin: 'https://www.linkedin.com/in/tuvshin-ochir-gansoyol-563540245/',
 };
 
 export const skills = [
     {
-        title: 'Frontend',
+        title: 'Front-End',
         skills: [
             {
                 name: 'React Js',
@@ -51,7 +51,7 @@ export const skills = [
         ],
     },
     {
-        title: 'Backend',
+        title: 'Back-End',
         skills: [
             {
                 name: 'Node Js',
@@ -141,7 +141,7 @@ export const experiences = [
         role: 'DevOps & Fullstack Engineering',
         company: 'ICT GROUP JSC.',
         date: 'December 2023 - March 2024',
-        desc: 'Working on Flipr Platforms, managing DevOps, and streamlining the process with automation.',
+        desc: 'Contributed to the development of Flipr Platforms by overseeing DevOps operations and optimizing workflows through automation',
         skills: ['Docker', 'Terraform', 'AWS', 'EC2', 'Portainer', 'Nginx', 'JavaScript', 'TypeScript', 'Node Js', ' Next Js'],
     },
     {
@@ -150,7 +150,7 @@ export const experiences = [
         role: 'Frontend Engineer',
         company: 'ICT GROUP JSC.',
         date: 'March 2022 - Present',
-        desc: 'Working on the frontend of the web application using ReactJS, Redux, and Material UI.',
+        desc: 'Engaged in front-end development of web applications utilizing ReactJS, Redux, and Material UI',
         skills: ['ReactJS', 'Redux', 'NodeJs', 'Material UI', 'HTML', 'CSS', 'JavaScript'],
     },
 
@@ -160,7 +160,7 @@ export const experiences = [
         role: 'Backend engineer ',
         company: 'ICT GROUP JSC.',
         date: 'july 2022 - Present',
-        desc: 'Working on the back-end of the web application using Java, Golang, Express.js',
+        desc: 'Focused on back-end development of web applications utilizing Java, Golang, and Express.js',
         skills: ['Java', 'Golang', 'NodeJs', 'Express.js', 'AWS', 'Graphql'],
     },
 ];
@@ -169,29 +169,37 @@ export const education = [
     {
         id: 0,
         img: 'https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Kiit.jpeg?alt=media&token=3839d520-c59d-4341-ad8f-0980c98de4dd',
-        school: 'Kalinga Institute of Industrial Technology, Bhubaneswar',
-        date: 'Oct 2021 - Sep 2025',
-        grade: '8.71 CGPA',
-        desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at Kalinga Institute of Industrial Technology, Bhubaneswar. I have completed 4 semesters and have a CGPA of 8.71. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. I am also a member of the Google Developers Student Club (GDSC) at KIIT, where I am learning and working on exciting projects with a team of talented developers.",
-        degree: 'Bachelor of Technology - BTech, Computer Science and Engineering',
+        school: 'Microsoft Oracle SE 18 level 3',
+        date: 'August 2023',
+        grade: 'Level 3',
+        desc: 'Certified at Level 3 proficiency, I possess advanced expertise in Java development. I excel in designing and implementing scalable software solutions using Java technologies. With a proven track record in enterprise-grade application development, I bring a high level of skill and reliability to any Java project.',
+        resume: '/Certification.pdf',
     },
     {
         id: 1,
         img: 'https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3',
-        school: 'Methodist School, Dankuni',
-        date: 'Apr 2019 - Apr 2025',
-        grade: '88.2%',
-        desc: 'I completed my class 12 high school education at Methodist School, Dankuni, where I studied Science with Computer Science.',
-        degree: 'ISC(XII), Science with Computer',
+        school: 'Server administration & AWS',
+        date: 'March 2024',
+        grade: '82.2%',
+        desc: 'As an AWS Certified Professional, I master designing, deploying, and managing applications on the AWS platform. With deep knowledge of AWS services and best practices, I architect scalable and secure cloud solutions, empowering organizations to innovate and grow with cloud technology.',
+        resume: '/Aws certificate.pdf',
     },
     {
         id: 2,
         img: 'https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3',
-        school: 'Methodist School, Dankuni',
-        date: 'Apr 2017 - Apr 2019',
+        school: 'Software system design and Architecture',
+        date: 'December 2023',
         grade: '92.3%',
-        desc: 'I completed my class 10 education at Methodist School, Dankuni, where I studied Science with Computer Application.',
-        degree: 'ICSC(X), Science with Computer',
+        desc: 'Certified in Software System Design and Architecture, I specialize in building strong and scalable software. With a solid grasp of design principles and patterns, I create efficient systems that are easy to maintain. My certification confirms my ability to develop blueprints, define system components, and align them with business needs. I bring essential skills to innovate and excel in software engineering.',
+        resume: '/Certificate.pdf',
+    },
+    {
+        id: 3,
+        img: 'https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Kiit.jpeg?alt=media&token=3839d520-c59d-4341-ad8f-0980c98de4dd',
+        school: 'Database managemant & SQL',
+        date: 'October 2023',
+        grade: '98%',
+        desc: 'With my certification in Database Management and SQL, I have honed my ability to organize and enrich data effectively. Drawing from extensive experience in database design and administration, I emphasize the importance of data reliability and optimization. My certification underscores my proficiency in SQL querying and data modeling, enabling seamless data management processes essential for making informed decisions.',
     },
 ];
 
@@ -307,30 +315,7 @@ export const projects = [
         github: 'https://github.com/rishavchanda/Whatsapp-Clone-React-Js',
         webapp: 'https://whatsapp-clone-rishav.web.app',
     },
-    {
-        id: 5,
-        title: 'Todo Web App',
-        date: 'Jun 2021',
-        description:
-            ' A Todo Web App made with React JS, Redux, and Material UI. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the tasks and can create a new task. It has a calendar where users can see all the tasks on a particular date. It has a search bar where users can search for a particular task.',
-        image: 'https://camo.githubusercontent.com/a328255ad96f861f57d25096d28018ab2656c689a1456b0d145764009bed2d1a/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f746f646f2d6170702d63386331392e61707073706f742e636f6d2f6f2f53637265656e73686f74253230283938292e706e673f616c743d6d6564696126746f6b656e3d33643335646366322d626666322d343730382d393031632d343232383866383332386633',
-        tags: ['React Js', 'Local Storage', 'AWS Auth', 'Node JS'],
-        category: 'web app',
-        github: 'https://github.com/rishavchanda/Todo-Web-App',
-        webapp: 'https://rishav-react-todo.netlify.app/',
-    },
-    {
-        id: 6,
-        title: 'Breaking Bad',
-        date: 'Jun 2021',
-        description:
-            'A simple react app that shows the characters of the famous TV series Breaking Bad. It uses the Breaking Bad API to fetch the data. It also has a search bar to search for a particular character.',
-        image: 'https://camo.githubusercontent.com/cd07010cbeb90cb1b43a5d6162784326aef02210ef7d41a0f9ae043b3e392378/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f746f646f2d6170702d63386331392e61707073706f742e636f6d2f6f2f53637265656e73686f7425323028313534292e706e673f616c743d6d6564696126746f6b656e3d65613439383630632d303435362d343333342d616435372d336239346663303333363263',
-        tags: ['React Js', 'API', 'Axios', 'Node JS'],
-        category: 'web app',
-        github: 'https://github.com/rishavchanda/Breaking-Bad',
-        webapp: 'https://breaking-bad-webapp.netlify.app',
-    },
+
     {
         id: 7,
         title: 'Quiz App',

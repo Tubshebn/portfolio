@@ -53,7 +53,7 @@ const Desc = styled.div`
     font-size: 18px;
     text-align: center;
     max-width: 600px;
-    color: ${({ theme }) => theme.text_secondary};
+    color: ${({ theme }) => theme.text_primary};
     @media (max-width: 768px) {
         margin-top: 12px;
         font-size: 16px;
@@ -76,7 +76,7 @@ const index = () => {
         <Container id='experience'>
             <Wrapper>
                 <Title>Experience</Title>
-                <Desc>My work experience as a software engineer and working on different projects.</Desc>
+                <Desc>My development experience as a software engineer</Desc>
                 <TimelineSection>
                     <Timeline>
                         {experiences.map((experience, index) => (
